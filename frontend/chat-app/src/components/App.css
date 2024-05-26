@@ -1,0 +1,31 @@
+/* App.css */
+
+/* Styles for the overall layout and appearance of the App component */
+.App {
+    text-align: center;
+  }
+  
+  /* Styles for the header section */
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh; /* Minimum height of the header to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin); /* Responsive font size */
+    color: white;
+  }
+  
+  /* Styles for the file input */
+  input[type="file"] {
+    margin-bottom: 10px; /* Add some space below the file input */
+  }
+  
+  /* Styles for buttons */
+  button {
+    margin: 5px; /* Add margin around buttons */
+  }
+  
+  /* Additional styles can be added as needed */
+  
